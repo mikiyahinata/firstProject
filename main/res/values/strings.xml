@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">気になるお店</string>
+    <string name="action_settings">Ver1.0</string>
+
+    <string name="shop_list">お店一覧</string>
+    <string name="no_data">データがありません</string>
+
+    <string name="map_label">地図</string>
+    <string name="call_label">電話</string>
+
+    <string name="success_msg">成功しました</string>
+    <string name="fail_msg">失敗しました</string>
+    <string name="top_msg">トップに戻る</string>
+
+    <string name="no">No</string>
+    <string name="name">名前</string>
+    <string name="address">住所</string>
+    <string name="tel">電話</string>
+    <string name="comment">コメント</string>
+
+    <string name="shop_insert_label">お店追加</string>
+    <string name="input_exec">追加・更新の実行</string>
+
+    <string name="update_label">編集</string>
+    <string name="delete_label">削除</string>
+
+    <string name="err_msg">名前は必須です</string>
+
+    <string name="photo">写真取得</string>
+    <string name="button_get_candidates">候補</string>
+    <string name="button_get_location">位置取得</string>
+    <string name="address_service_not_available">位置取得失敗</string>
+    <string name="invalid_lat_long_used">位置取得失敗 invalid_lat_long_used</string>
+
+</resources>

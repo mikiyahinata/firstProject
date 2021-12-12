@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+    <EditText android:background="#b0c4de"
+        android:id="@+id/input_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_get_candidates"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:onClick="getCandidates"
+        android:text="@string/button_get_candidates" />
+
+    <TextView
+        android:id="@+id/textView_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+
+    <EditText android:background="#b0c4de"
+        android:id="@+id/input_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getLocation"
+        android:text="@string/button_get_location"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comment" />
+
+    <EditText android:background="#b0c4de"
+        android:id="@+id/input_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+
+    <ImageView
+        android:id="@+id/input_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shopInput"
+        android:text="@string/input_exec" />
+</LinearLayout>
